@@ -15,6 +15,7 @@ public:
         }
         
         return tn;
-        
+        // t3 = t0 + t1 + t2 = 2
+        // t4 = t1 + t2 + t3 = 4
     }
 };
