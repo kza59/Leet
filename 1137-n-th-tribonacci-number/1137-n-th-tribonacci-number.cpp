@@ -7,8 +7,6 @@ public:
         if(n == 3) return 2;
         if(n == 4) return 4;
         if(n == 5) return 7;
-        if(n == 6) return 13;
-        if(n == 7) return 24;
         return tribonacci(n-1) + tribonacci(n-2) + tribonacci(n-3);
         
     }
