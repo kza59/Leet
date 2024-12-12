@@ -12,19 +12,17 @@
 class Solution {
 public:
     bool isSameTree(TreeNode* p, TreeNode* q) {
-        if(!p && q) return false;
-        if(p && !q) return false;
-        if(p && q && p->val!=q->val) {
-            cout << p->val << " " << q->val << endl;
+        if(p==nullptr) {
+            if(q==nullptr) return true;
             return false;
         }
-        if(!p && !q ) return true;
-        
-        if( !isSameTree(p->left,q->left) || !isSameTree(p->right,q->right)) {
-            
+        if(q==nullptr) {
+            if(p==nullptr) return true;
             return false;
         }
-        return true;
+        if(p->val != q->val) return false;
+        return isSameTree(p->left, q->left) && isSameTree(p->right, q->right);
 
+        
     }
 };
