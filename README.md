@@ -51,4 +51,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/kza59/Leet/tree/master/0125-valid-palindrome) |
+## Stack
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/kza59/Leet/tree/master/0155-min-stack) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/kza59/Leet/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
